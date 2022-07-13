@@ -1,0 +1,98 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+/* .buttoncreate{
+    background-color:rgb(4, 203, 4); 
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    margin: 7px;
+} */
+
+.maincreate{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: 'Arial';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.right{
+    background: url('https://i.pinimg.com/originals/1c/a6/e1/1ca6e1c35e2d884230242cc0326dbf28.jpg') no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    
+}
+
+.buttoncreate {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-left: 2.5px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: transparent;
+    border:2px solid yellow;
+    color: yellow;
+}
+
+.buttoncreate:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 227, 87);
+    color: rgb(117, 113, 113);
+}
+
+.createtitulo {
+font-size: 50px;
+color: rgb(233, 253, 8);
+font-family: 'Pokemon Solid', sans-serif;
+z-index: 2;
+line-height: 20px;
+text-shadow: black -3px -3px, black 6px 3px; 
+
+    
+}
+
+.inputs {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: left; */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+text-align: center;
+color: rgb(248, 247, 251);
+font-size: 30px;
+text-shadow: white -1px -1px, black 2px 2px;
+
+}
+
+.inputs input {
+    margin-bottom: 50px;
+    width: fit-content;
+    background-color: rgb(217, 250, 32);
+    font-size: 20px;
+    
+}
+
+/* .inputs input{
+    background-color: rgb(4, 203, 4);
+    color: white;
+    align-items: center;
+    display: flex;
+    /* flex-direction: row; */
+    /* border: rgb(4, 203, 4) 1px solid; */
+    /* gap: 3px; */
+    /* margin: 2px; */
+    /* border-radius: 5px;
+    justify-content: center;
+    align-items: center; */
+/* } */ 
