@@ -83,7 +83,7 @@ export default function Home() {
                 handleClickear(e);
               }}
             >
-              Reload Characters!!
+              Reload Pokemons!!
             </button>
           </div>
           <div className="select">
