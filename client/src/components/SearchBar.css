@@ -28,5 +28,12 @@
         width: 300px;
         height: 40px;
         
-    
 }
+
+/* @media screen and (max-width:800px) {
+      .style {
+        font-size: 1px;
+      }
+        
+        
+} */

@@ -21,7 +21,7 @@ export default function SearchBar() {
       dispatch(clearState());
     }
     if (!name.length) {
-      alert("escribir pokemon");
+      alert("Write Pokemon!");
     }
   }
 

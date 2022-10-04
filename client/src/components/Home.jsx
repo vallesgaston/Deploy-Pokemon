@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { createDispatchHook, useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   getAllPokemons,
   filterPokemonsByType,

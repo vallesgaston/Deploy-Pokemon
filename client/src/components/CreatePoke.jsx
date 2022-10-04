@@ -80,7 +80,7 @@ export default function CreatePoke() {
     e.preventDefault();
     console.log(input);
     dispatch(postPokemon(input));
-    alert("Pokemon Creado!!");
+    alert("Pokemon Created!!");
     setInput({
       name: "",
       hp: "",

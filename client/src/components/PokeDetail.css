@@ -79,3 +79,32 @@ height:40%;
     width: 120px;
     height: 80px;
 }
+
+@media screen and (max-width:800px) {
+
+    .detail {
+        margin-left: 100px;
+        width: 200px;
+        text-align: left;
+    }
+
+    .detail1 {
+        /* display: flex;
+        margin-top: 25px;
+        border:2px solid yellow;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        font-size: 18px;
+        margin-right: -22px;
+        color:rgb(246, 255, 0)
+        
+    }
+
+    .detail h1{
+        font-size: 40px;
+    }
+    
+  
+}
