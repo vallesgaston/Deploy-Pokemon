@@ -21,7 +21,7 @@
 .card_img {
     height: 16vw;
     width: 80%;
-    overflow: hidden;
+    overflow: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,5 +57,17 @@
 
 
 @media screen and (max-width:800px) {
-  
+  .card_button {
+   font-size: 10px;
+  }
+
+  .card_img {
+    margin-top: 1px;
+    font-size: 50px;
+  }
+
+  .card h3 {
+    margin-top: 10px;
+    font-size: 10px;
+  }
 }

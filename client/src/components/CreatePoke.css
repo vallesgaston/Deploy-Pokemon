@@ -96,3 +96,45 @@ text-shadow: white -1px -1px, black 2px 2px;
     justify-content: center;
     align-items: center; */
 /* } */ 
+
+@media screen and (max-width:800px) {
+
+    .createtitulo {
+        font-size: 30px;
+    }
+
+    .inputs {
+ font-size: 20px;
+ padding: 1;
+ box-sizing: border-box;
+ width: 20px;
+ justify-content: center;
+ margin-left: 50px;
+ 
+    }
+
+    .buttoncreate {
+        margin-left: 140px;
+    }
+
+    .inputs input {
+        margin-bottom: 10px;
+        width: fit-content;
+        
+        
+    }
+    
+
+   
+     
+}
+
+
+
+
+
+
+    
+
+
+  

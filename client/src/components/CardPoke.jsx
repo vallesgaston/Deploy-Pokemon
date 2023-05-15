@@ -8,8 +8,8 @@ export function CardPoke({ img, name, type, id }) {
 
   return (
     <div className="card">
-      <img src={img} alt="Img not found" className="card_img" />
       <h3>{upperName}</h3>
+      <img src={img} alt="Img not found" className="card_img" />
       <h5>{type}</h5>
       <Link to={`/pokemons/${id}`}>
         <button className="card_button">Specific info</button>
